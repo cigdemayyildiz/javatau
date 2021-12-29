@@ -16,7 +16,5 @@ public class MadLibs {
         scanner.close();
 
         System.out.println("On a "+adjective+" "+season+" day, I drink a minimum of "+number+" cups of coffee.");
-
     }
-
 }
