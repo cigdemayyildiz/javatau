@@ -31,7 +31,6 @@ public class Rectangle {
         this.width = width;
     }
 
-
     public double calculatePerimeter(){
         return (2 * length) + (2 * width);
     }
