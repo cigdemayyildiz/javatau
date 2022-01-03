@@ -6,6 +6,7 @@ import java.util.Scanner;
  * Loop Break
  * Search a String to determine if it contains the letter 'A'.
  */
+
 public class LetterSearch {
 
     public static void main(String[] args) {
