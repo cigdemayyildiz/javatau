@@ -7,7 +7,6 @@ public class InheritanceTester {
         //Person person = new Person();
         Employee employee = new Employee();
 
-
         Rectangle rectangle = new Rectangle();
         rectangle.print(); // I am a rectangle
 
@@ -15,14 +14,12 @@ public class InheritanceTester {
         square.print(); // I am a rectangle
         square.print("square"); // I am a rectangle
 
-
         testSquareOverride();
 
         Mother mom = new Mother();
         mom.setName("Glenda");
 
         System.out.println(mom.getName() + " is a " + mom.getGender()); // Glenda is a female
-
     }
 
     public static void testSquareOverride(){
@@ -36,5 +33,4 @@ public class InheritanceTester {
         square.setWidth(8);
         System.out.println(square.calculatePerimeter());
     }
-
 }
