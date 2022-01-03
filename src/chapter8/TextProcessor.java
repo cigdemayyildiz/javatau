@@ -9,7 +9,6 @@ public class TextProcessor {
         reverseString("Hello TAU");
         System.out.println();
         addSpaces("HeyWorld!It'sMeAngie");
-
     }
 
     /**
@@ -36,7 +35,6 @@ public class TextProcessor {
             System.out.print(text.charAt(i));
         }
         System.out.println();
-
     }
 
     public static void addSpaces(String text){
@@ -49,7 +47,5 @@ public class TextProcessor {
             }
         }
         System.out.println(modifiedText);
-
     }
-
 }
