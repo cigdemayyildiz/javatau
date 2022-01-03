@@ -1,7 +1,6 @@
 package chapter3;
 
 import java.util.Scanner;
-
 /*
 If Else
 * All salespeople are expected to make at least 10 sales each week.
