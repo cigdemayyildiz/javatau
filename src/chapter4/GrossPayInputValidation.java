@@ -7,6 +7,7 @@ import java.util.Scanner;
  * Each store employee makes $15 an hour. Write a program that allows the employee
  * to enter the number of hours worked for the week. Do not allow overtime.
  */
+
 public class GrossPayInputValidation {
 
     public static void main(String[] args) {
@@ -30,6 +31,5 @@ public class GrossPayInputValidation {
         // Calculate gross
         double gross = rate * hoursWorked;
         System.out.println("Gross pay: $" + gross);
-
     }
 }
