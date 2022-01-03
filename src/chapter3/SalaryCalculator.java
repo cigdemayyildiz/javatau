@@ -30,6 +30,5 @@ public class SalaryCalculator {
 
         // Output
         System.out.println("The employee's pay is $"+salary);
-
     }
 }
