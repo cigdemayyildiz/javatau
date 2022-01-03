@@ -20,7 +20,6 @@ public class PhoneBillCalculator {
         double tax = calculateTax(baseCost + overageCharge);
 
         calculateAndPrintBill(baseCost, overageCharge, tax);
-
     }
 
     public static double calculateOverages(double extraMinutes){
@@ -42,7 +41,5 @@ public class PhoneBillCalculator {
         System.out.println("Overage: $"+String.format("%.2f", overage));
         System.out.println("Tax: $"+String.format("%.2f", tax));
         System.out.println("Total: $"+String.format("%.2f", finalTotal));
-
     }
-
 }
