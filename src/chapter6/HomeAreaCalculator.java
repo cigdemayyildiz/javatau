@@ -4,6 +4,7 @@ package chapter6;
  * Write a class that creates instances of the 'Rectangle' class to find the
  * total area of two rooms in a house.
  */
+
 public class HomeAreaCalculator {
 
     public static void main(String[] args) {
@@ -29,7 +30,5 @@ public class HomeAreaCalculator {
         double totalArea = areaOfRoom1 + areaOfRoom2; // 3500
 
         System.out.println("Area of both rooms: "+totalArea);
-
-
     }
 }
