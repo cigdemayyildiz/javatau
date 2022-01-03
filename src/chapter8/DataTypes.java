@@ -27,5 +27,4 @@ public class DataTypes {
             System.out.println(number.doubleValue());
         }
     }
-
 }
