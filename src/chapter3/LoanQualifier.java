@@ -34,6 +34,5 @@ public class LoanQualifier {
         }else {
             System.out.println("Sorry, you must earn at least $"+requiredSalary+" to qualify for the loan.");
         }
-
     }
 }
