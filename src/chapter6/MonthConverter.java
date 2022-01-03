@@ -6,6 +6,5 @@ public class MonthConverter {
 
         System.out.println(Month.getMonth(2)); // February
         System.out.println(Month.getMonth("January")); // 1
-
     }
 }
