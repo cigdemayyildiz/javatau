@@ -24,7 +24,7 @@ public class LetterSearch {
             char currentLetter = text.charAt(i);
             if (currentLetter=='A' || currentLetter=='a'){
                 letterFound = true;
-                break;
+                //break;
             }
         }if (letterFound){
             System.out.println("This text contains letter 'A");
