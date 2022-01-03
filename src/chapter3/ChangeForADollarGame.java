@@ -36,6 +36,5 @@ public class ChangeForADollarGame {
         }else{
             System.out.println("Yay! That's exactly $1.00! You win!");
         }
-
     }
 }
