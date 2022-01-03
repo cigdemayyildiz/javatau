@@ -7,6 +7,5 @@ public class PhoneBillCalculator {
         PhoneBill bill = new PhoneBill(123456);
         bill.setUsedMinutes(1000);
         bill.printItemizedBill();
-
     }
 }
