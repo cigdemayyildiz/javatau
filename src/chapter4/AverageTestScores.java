@@ -6,6 +6,7 @@ import java.util.Scanner;
  * Nested Loops
  * Find the average of each student's test scores
  */
+
 public class AverageTestScores {
 
     public static void main(String[] args) {
@@ -27,6 +28,5 @@ public class AverageTestScores {
             System.out.println("The test average for student#"+(i+1)+" is "+average);
         }
         scanner.close();
-
     }
 }
