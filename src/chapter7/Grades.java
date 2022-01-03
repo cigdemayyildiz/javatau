@@ -7,6 +7,7 @@ import java.util.Scanner;
  * number of grades and provides them with their average
  * score, as well as the highest and lowest score.
  */
+
 public class Grades {
 
     private static int[] grades;
@@ -22,7 +23,6 @@ public class Grades {
         System.out.println("Average: "+String.format("%.2f",calculateAverage()));
         System.out.println("Highest: "+getHighest());
         System.out.println("Lowest: "+getLowest());
-
     }
 
     public static void getGrades(){
@@ -63,6 +63,4 @@ public class Grades {
         }
         return lowest;
     }
-
-
 }
