@@ -6,6 +6,7 @@ import java.util.Scanner;
  * For Loop
  * Write a cashier program will scan a given number of items and tally the cost.
  */
+
 public class Cashier {
 
     public static void main(String[] args) {
@@ -26,7 +27,5 @@ public class Cashier {
         }
         scanner.close();
         System.out.println("Your total is $" + total);
-
-
     }
 }
