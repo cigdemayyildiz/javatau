@@ -3,6 +3,7 @@ package chapter6;
 /*
  * Method Overloading
  */
+
 public class Month {
 
     public static String getMonth(int month){
@@ -39,7 +40,5 @@ public class Month {
             case "December": return 12;
             default: return -1;
         }
-
     }
-
 }
