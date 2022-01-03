@@ -6,6 +6,7 @@ import java.util.Scanner;
  * Our First Method
  * Write a method that asks an user for their name, then greets them by name.
  */
+
 public class Greetings {
 
     public static void main(String[] args) {
