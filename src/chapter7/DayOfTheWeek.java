@@ -14,8 +14,5 @@ public class DayOfTheWeek {
         scanner.close();
 
         System.out.println("Corresponding day: " + daysOfWeek[index-1]);
-
-
     }
-
 }
