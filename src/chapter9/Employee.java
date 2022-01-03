@@ -9,6 +9,7 @@ public class Employee extends Person {
         super("Angie");
         System.out.println("In Employee default constructor.");
     }
+
     public String getEmployeeId() {
         return employeeId;
     }
