@@ -17,7 +17,6 @@ public class HomeAreaCalculatorRedo {
         System.out.println("The total area is: "+area);
 
         calculator.scanner.close();
-
     }
 
     public Rectangle getRoom(){
@@ -33,5 +32,4 @@ public class HomeAreaCalculatorRedo {
     public double calculateTotalArea(Rectangle rectangle1, Rectangle rectangle2){
         return rectangle1.calculateArea() + rectangle2.calculateArea();
     }
-
 }
