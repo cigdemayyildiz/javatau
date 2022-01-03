@@ -34,7 +34,5 @@ public class GradeMessage {
                 break;
         }
         System.out.println(message);
-
-
     }
 }
