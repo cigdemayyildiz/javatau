@@ -23,9 +23,5 @@ public class TasteTester {
         System.out.println("Wedding cake flavor: " + weddingCake.getFlavor());
         System.out.println("Wedding cake tiers: " + weddingCake.getTiers());
         System.out.println("Wedding cake price: " + weddingCake.getPrice());
-
-
-
-
     }
 }
