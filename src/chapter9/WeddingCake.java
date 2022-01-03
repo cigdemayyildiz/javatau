@@ -15,5 +15,4 @@ public class WeddingCake extends Cake {
     public void setTiers(int tiers){
         this.tiers = tiers;
     }
-
 }
