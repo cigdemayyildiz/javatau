@@ -100,6 +100,5 @@ public class PasswordValidator {
             valid = false;
             errorMessage += "\nYour password must be different from your current password.";
         }
-
     }
 }
