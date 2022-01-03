@@ -6,7 +6,6 @@ public class PhoneBill {
     private double baseCost;
     private int allottedMinutes;
     private int usedMinutes;
-
     public PhoneBill(){
         int id = 0;
         baseCost = 79.99;
