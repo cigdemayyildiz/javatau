@@ -13,7 +13,6 @@ public class LotteryTicket {
         int[] ticket = generateNumbers();
         Arrays.sort(ticket);
         printTicket(ticket);
-
     }
 
     public static int[] generateNumbers(){
@@ -80,5 +79,4 @@ public class LotteryTicket {
             System.out.print(ticket[i]+" | ");
         }
     }
-
 }
